@@ -1,0 +1,20 @@
+Step,Description,Production_Time,Validation_Time,Validation_Type,Probability_of_Success,Validation_Correctness,Existing_Quantity,Number_of_Previous_Attempts,Number_of_Successful_Attempts,Cumulative_Production_Time,Cumulative_Validation_Time,Current_Time_Spares,Time_Spare_Changed,Projected_Next_Production_Time,Secondary_Validation_1,Secondary_Validation_1_Count,Secondary_Validation_2,Secondary_Validation_2_Count,Secondary_Validation_3,Secondary_Validation_3_Count,Secondary_Validation_4,Secondary_Validation_4_Count,Pending_Validation_Count,Total_Validation_Time,Backlog
+1,Pour PDMS pre-polymer into a beaker and add PDMS curing agent at 10:1 ratio using a pipette.,51,61,AI,0.86,0.99,10,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,0
+2,"Put disposable cup on the weighing scale and tare it. Pour the PDMS mixture in the cup and take note of the weight. Using the spoon, add 0.2 to 1% mass of MWCNT to the mixture.",52,62,AI,0.91,0.99,10,0,0,0,0,0,0,0,2,0,2,0,2,0,2,0,0,0,0
+3,"Bring the cup of mixture to the fume hood, switch on the fume hood, and stir the mixture thoroughly using the stirrer.",53,63,AI,0.96,0.99,10,0,0,0,0,0,0,0,3,0,3,0,3,0,3,0,0,0,0
+4,"Put the cup of well-stirred mixture in the vacuum oven, switch it on, turn off gas intake, switch on vacuum suction pump, and leave the cup of mixture there for 1 h. After which, switch off the vacuum suction pump and then the vacuum oven.",54,64,AI,0.85,0.99,10,0,0,0,0,0,0,0,4,0,4,0,4,0,4,0,0,0,0
+5,Bring the cup of mixture to the fume hood. Slowly and carefully pour the vacuumed mixture into Mould No. 1.,55,65,AI,0.99,0.99,10,0,0,0,0,0,0,0,5,0,5,0,5,0,5,0,0,0,0
+6,"Put mould of mixture in the oven, switch it on, and configure temperature and period settings. After 2 h of heating, allow material to cool for 15 mins. After which, remove mould from oven.",56,66,AI,0.98,0.99,10,0,0,0,0,0,0,0,6,0,6,0,6,0,6,0,0,0,0
+7,Bring the mould of mixture to the work bench and remove the cured CNT-PDMS composite from the mould.,57,67,AI,0.94,0.99,10,0,0,0,0,0,0,0,7,0,7,0,7,0,7,0,0,0,0
+8,Dissolve Type I collagen in aqueous hydrochloric acid in the fume hood.,58,68,AI,0.9,0.99,10,0,0,0,0,0,0,0,8,0,8,0,8,0,8,0,0,0,0
+9,Homogenize the solution at 8000 rpm for 15 min using the homogenizer in the fume hood.,59,69,AI,0.95,0.99,10,0,0,0,0,0,0,0,9,0,9,0,9,0,9,0,0,0,0
+10,"Place the cured CNT-PDMS composite in the hollow region of Mould No. 2, and carefully pour the collagen mixture into the mould cavity.",60,70,AI,0.98,0.99,10,0,0,0,0,0,0,0,10,0,10,0,10,0,10,0,0,0,0
+11,"Put mould of mixture in the freeze drier, configure temperature and period settings, and leave it for 2 h.",61,71,AI,0.96,0.99,10,0,0,0,0,0,0,0,11,0,11,0,11,0,11,0,0,0,0
+12,"Transfer the mould of mixture to the vacuum oven, configure temperature and period settings, and leave it for 12 h. After which, remove mould from oven.",62,72,AI,0.94,0.99,10,0,0,0,0,0,0,0,12,0,12,0,12,0,12,0,0,0,0
+13,Bring the mould of mixture to the work bench and remove the composite from the mould.,63,73,AI,0.9,0.99,10,0,0,0,0,0,0,0,13,0,13,0,13,0,13,0,0,0,0
+14,"Spray the composite with 70% ethanol, and place the composite in the BSC. Close the glass door and switch on the UV light for 1 h to sterilize it.",64,74,AI,0.86,0.99,10,0,0,0,0,0,0,0,14,0,14,0,14,0,14,0,0,0,0
+15,Remove the cryopreserved epithelial cells from the cryopreservation system.,65,75,AI,0.9,0.99,10,0,0,0,0,0,0,0,15,0,15,0,15,0,15,0,0,0,0
+16,Thaw the cryopreserved epithelial cells in the water bath,66,76,AI,0.92,0.99,10,0,0,0,0,0,0,0,16,0,16,0,16,0,16,0,0,0,0
+17,Seed the thawed epithelial cells onto the composite using a pipette in the BSC.,67,77,AI,0.91,0.99,10,0,0,0,0,0,0,0,17,0,17,0,17,0,17,0,0,0,0
+18,Transfer the seeded composite to the bioreactor/incubator.,68,78,AI,0.94,0.99,10,0,0,0,0,0,0,0,18,0,18,0,18,0,18,0,0,0,0
+19,Allow the epithelial cells to grow and form a substantial amount of cilia.,69,79,AI,0.93,0.99,10,0,0,0,0,0,0,0,19,0,19,0,19,0,19,0,0,0,0
