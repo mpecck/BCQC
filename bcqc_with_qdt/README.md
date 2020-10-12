@@ -4,10 +4,10 @@
 1. The range of production time and inspection time by each workcell was specified in ```Data_Sheet_qdt.csv```.
 2. As there were 17 workcells, actual capability of each workcell in performing inspection was randomly generated from 0 to 1 and was written in ```actual_inspector_capability.csv```.
 3. The actual capability values and data sheet were used to generate a simulated production process of computer deskstop assembly using ```bcqc_with_qdt/input_generator.py```. The simulated production process did not include inspection process.
-4. Computer simulations in Section 5.3 in our manuscript was performed using ```bcqc_with_qdt/independent_qc_simulation.py```.
+4. Computer simulations in Section 5.3 in our manuscript was performed using ```bcqc_with_qdt/independent_qc_simulator.py```.
 - To simulate for ```score_type = "training"```, a new simulated production process has to be generated with at least 20 products to be assembled. The estimated capability value ```score``` of each workcell was written in ```estimated_inspector_capability.csv```.
 - To simulate for ```score_type = "score"```, both the actual capability and estimated capability values were used as input in the simulation.
-5. Computer simulations in Section 5.4 in our manuscript is performed using ```bcqc_with_qdt/dependent_qc_simulation.py```. This simulation only simulate for ```score_type = "score"```.
+5. Computer simulations in Section 5.4 in our manuscript is performed using ```bcqc_with_qdt/dependent_qc_simulator.py```. This simulation only simulate for ```score_type = "score"```.
 
 ## Visualization
 1. Fig. 8 was generated from ```bcqc_with_qdt/analysis/qc_info.py```.

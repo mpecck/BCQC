@@ -1,3 +1,13 @@
+"""
+Project Title: BCQC 2.0
+Program title: Dependent BCQC Simulator
+This program simulates scenarios of quality control (QC) performed during production of Computer Desktops assembly.
+QC is performed on simulated physical workpiece after each production step in peer-to-peer manner using blockchain and
+Quality Defect Tolerance (QDT). Parametric values of the assembly production are randomly generated concurrent to
+the QC process. The assembly is conducted in parallel sequence, which means each product can randomly choose the next
+step based on the current state of the process.
+Written by Wong Pooi Mun
+"""
 from bcqc_with_qdt.emulators.network_emulator import app, add_routes
 from bcqc_with_qdt.emulators.workcell_emulator import Workcell
 from bcqc_with_qdt.emulators.workpiece_emulator import Workpiece

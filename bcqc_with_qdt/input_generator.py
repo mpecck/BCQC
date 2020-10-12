@@ -1,3 +1,11 @@
+"""
+Project Title: BCQC 2.0
+Program title: Input Generator
+This program randomly generates parametric values of a pre-defined number of Computer Desktops assembly production.
+The assembly production is conducted in parallel sequence, which means each product can randomly choose the next step
+based on the current state of the process.
+Written by Wong Pooi Mun
+"""
 from bcqc_with_qdt.emulators.workcell_emulator import Workcell
 from bcqc_with_qdt.emulators.workpiece_emulator import Workpiece
 from bcqc_with_qdt.emulators.belt_emulator import Transporter
